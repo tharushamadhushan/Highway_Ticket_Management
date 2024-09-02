@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: vehicle-service
+  config:
+    import: "optional:configserver:http://localhost:8090"
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/micros?createDatabaseIfNotExist=true
+#    username: root
+#    password: 1234
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka/
